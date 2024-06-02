@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Zomato_Bot_Application
+Version: 0.0.1
+Author: amarnath
+Author-email: amarnath.arjsd@gmail.com
+Requires-Dist: chainlit
+Requires-Dist: notebook
+Requires-Dist: ipywidgets
+Requires-Dist: tqdm
+Requires-Dist: python-dotenv
+Requires-Dist: openai
+Requires-Dist: langchain-google-genai
