@@ -8,7 +8,7 @@ load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 os.environ['GOOGLE_API_KEY'] = GOOGLE_API_KEY
 
-message=[{"role":"system", "content":instruction}]
+message=[{"role":"system","content":instruction}]
 
 def ask_bot(message):
     llm=ChatGoogleGenerativeAI(model="gemini-pro")
